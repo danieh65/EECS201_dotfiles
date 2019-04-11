@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/usr/local/Cellar/libressl/2.8.3/include'
+let g:netrw_dirhist_2='/Users/danieh65/Documents/EECS 398/team_work/maximal-munch/crawler/master/test'
+let g:netrw_dirhist_3='/Users/danieh65/Documents/EECS 201/week11/advanced'
+let g:netrw_dirhist_4='/Users/danieh65/.vim'

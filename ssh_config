@@ -1,0 +1,18 @@
+### CAEN
+Host caen login.engin.umich.edu
+	HostName login.engin.umich.edu
+	User dhoek
+	ControlMaster auto
+	ControlPath ~/.ssh/_%r@%h:%p
+	ControlPersist 43200
+	ForwardAgent yes
+
+Host oncampus
+	HostName dhoek@oncampus-course.engin.umich.edu
+
+Host ubuntu
+	HostName 67.194.201.53
+	User dhoek
+	ControlMaster auto
+	ControlPath ~/.ssh/_%r@%h:%p
+	ControlPersist 43200
